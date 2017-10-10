@@ -1,0 +1,27 @@
+/*.btn-diferente{
+    background-color: greenyellow;
+}
+
+body{
+    background-color: grey;
+    color: darkred;
+    font-family: Arial, Helvetica, sans-serif
+}*/
+
+@media only screen and (max-width: 500px) {
+    body{
+        background-color: blue;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    body{
+        background-color: greenyellow;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    body{
+        background-color: darkred;
+    }
+}
